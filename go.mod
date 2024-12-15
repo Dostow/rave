@@ -3,7 +3,6 @@ module github.com/dostow/rave
 go 1.17
 
 require (
-	github.com/RichardKnop/machinery v1.10.6
 	github.com/apex/log v1.9.0
 	github.com/caarlos0/env v3.5.0+incompatible
 	github.com/cstockton/go-conv v1.0.0
@@ -22,6 +21,7 @@ require (
 	cloud.google.com/go/pubsub v1.10.0 // indirect
 	github.com/Jeffail/gabs v1.4.0 // indirect
 	github.com/RichardKnop/logging v0.0.0-20190827224416-1a693bdd4fae // indirect
+	github.com/RichardKnop/machinery v1.10.6 // indirect
 	github.com/aws/aws-sdk-go v1.37.16 // indirect
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
@@ -50,9 +50,11 @@ require (
 	github.com/streadway/amqp v1.0.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
-	github.com/xdg/stringprep v1.0.0 // indirect
-	go.mongodb.org/mongo-driver v1.4.6 // indirect
+	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
+	github.com/xdg-go/scram v1.0.2 // indirect
+	github.com/xdg-go/stringprep v1.0.2 // indirect
+	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // indirect
+	go.mongodb.org/mongo-driver v1.5.1 // indirect
 	go.opencensus.io v0.22.6 // indirect
 	go.opentelemetry.io/otel v0.17.0 // indirect
 	go.opentelemetry.io/otel/metric v0.17.0 // indirect
