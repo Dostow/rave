@@ -3,7 +3,6 @@ module github.com/dostow/rave
 go 1.17
 
 require (
-	github.com/RichardKnop/machinery v1.10.6
 	github.com/apex/log v1.9.0
 	github.com/caarlos0/env v3.5.0+incompatible
 	github.com/cstockton/go-conv v1.0.0
@@ -22,6 +21,7 @@ require (
 	cloud.google.com/go/pubsub v1.10.0 // indirect
 	github.com/Jeffail/gabs v1.4.0 // indirect
 	github.com/RichardKnop/logging v0.0.0-20190827224416-1a693bdd4fae // indirect
+	github.com/RichardKnop/machinery v1.10.6 // indirect
 	github.com/aws/aws-sdk-go v1.37.16 // indirect
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
@@ -63,7 +63,7 @@ require (
 	golang.org/x/net v0.0.0-20211029224645-99673261e6eb // indirect
 	golang.org/x/oauth2 v0.0.0-20210201163806-010130855d6c // indirect
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a // indirect
-	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.1.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
